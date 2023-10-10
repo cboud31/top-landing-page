@@ -1,0 +1,23 @@
+.nav-bar {
+  background: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  font-family: "Kanit", sans-serif;
+  font-family: "Roboto", sans-serif;
+  justify-content: space-between;
+  padding: 24px 10%;
+  width: 100%;
+}
+
+.nav-bar-logo {
+  font-size: 24px;
+}
+
+.nav-bar-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-bar-links > li > * {
+  color: #e5e7eb;
+}
