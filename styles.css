@@ -118,3 +118,54 @@
   margin-bottom: 12px;
   width: inherit;
 }
+
+/* TESTIMONIAL SECTION */
+.testimonial {
+  background: var(--secondary-bg-gray);
+  color: var(--text-dark-gray);
+  display: flex;
+  flex-direction: column;
+  padding: 5% 10%;
+}
+
+.testimonial > .quote {
+  font-size: 36px;
+  font-style: italic;
+  padding: 0px 10%;
+}
+
+.testimonial > .quote-author {
+  font-size: 24px;
+  padding: 0px 10%;
+  text-align: end;
+}
+
+/* CTA */
+.cta {
+  background-color: var(--light-blue);
+  border-radius: 8px;
+  color: var(--text-primary-white);
+  display: flex;
+  gap: 20%;
+  justify-content: space-around;
+  margin: 5% 10%;
+  padding: 40px 0px;
+}
+
+.cta-signup {
+  background-color: var(--light-blue);
+  border: 2px solid var(--text-secondary-white);
+  border-radius: 8px;
+  color: var(--text-primary-white);
+  padding: 10px 40px;
+}
+
+.footer {
+  align-items: center;
+  background: var(--main-bg-color);
+  color: var(--text-secondary-white);
+  display: flex;
+  justify-content: center;
+  padding: 24px 10%;
+  width: 100%;
+}
