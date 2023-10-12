@@ -1,8 +1,10 @@
 * {
   box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
   list-style: none;
   margin: 0;
   /* LANDING PAGE COLOR PALETTE */
+  --light-blue: #3882f6;
   --main-bg-color: #1f2937;
   --placeholder-gray: #f9faf858;
   --secondary-bg-gray: #e5e7eb;
@@ -40,8 +42,23 @@
   align-items: center;
   background: var(--main-bg-color);
   display: flex;
+  gap: 60px;
   justify-content: center;
-  padding: 0px 10%;
+  padding: 5% 10%;
+}
+
+.hero-h1 {
+  color: var(--text-primary-white);
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.hero-content {
+  max-width: 500px;
+}
+
+.hero-content > .hero-subtext {
+  color: var(--text-primary-white);
 }
 
 .hero-img-placeholder {
@@ -49,5 +66,18 @@
   background: var(--placeholder-gray);
   display: flex;
   height: 360px;
+  justify-content: center;
   width: 640px;
+}
+
+.hero-img-placeholder > .hero-subtext {
+  color: var(--text-secondary-white);
+}
+
+.hero-cta {
+  background-color: var(--light-blue);
+  border: none;
+  border-radius: 5px;
+  color: var(--text-primary-white);
+  padding: 10px 20px;
 }
